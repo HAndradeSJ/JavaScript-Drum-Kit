@@ -25,27 +25,43 @@ body{
 
 /* title */
 h1{
-    margin-left:10vw;
     margin-top:8vh;
-    font-size:4.0rem;
+    font-size:4.5rem;
     text-align:center;
     font-weight:bold;
+    transition: 0.2s all;
 }
 /* butoon das drums */
 
 ul{
     list-style:none;
     display:flex;
-    justify-content:space-between;
-    margin-top:60vh;
+    justify-content:space-around;
+    margin-top:25vh;
 }
-button{
-    padding:2px;
+ button{
+    margin:0 20px;
+    border:none;
     width:6vw;
     height:15vh;
     font-weight:bold;
     font-size:1.5rem;
-    border:none;
     color:white;
     background-color:rgba(0, 0, 0, 0.877);
+    transition:0.3s all;
+} 
+
+/* hovers do site */
+
+h1:hover{
+    font-size:4.7rem;
+
 }
+/* hovers do button */
+button:hover{
+    font-size:1.8rem;
+    height:17vh;
+    width:7vw;
+    color:yellow;
+}
+
