@@ -8,13 +8,40 @@ function teclado(e){
         Audio = document.getElementById('audi1');
         Audio.play();
     }
+    else if (e.keyCode == 83){
+        Audio = document.getElementById('audi2');
+        Audio.play();
+    }
+    else if (e.keyCode == 68){
+        Audio = document.getElementById('audi3');
+        Audio.play();
+    }
+    else if (e.keyCode == 71){
+        Audio = document.getElementById('audi4');
+        Audio.play();
+    }
+    else if (e.keyCode == 72){
+        Audio = document.getElementById('audi5');
+        Audio.play();
+    }
+    else if (e.keyCode == 74){
+        Audio = document.getElementById('audi6');
+        Audio.play();
+    }
+    else if (e.keyCode == 75){
+        Audio = document.getElementById('audi7');
+        Audio.play();
+    }
+    else if (e.keyCode == 76){
+        Audio = document.getElementById('audi8');
+        Audio.play();
+    }
 }
 
 
-
 function click(x){
-    le = x
-    if(le == 'a'){
+    var part = x
+    if(part == 'a'){
         Audio = document.getElementById('audi1');
         Audio.play();
     }
