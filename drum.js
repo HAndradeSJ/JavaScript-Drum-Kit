@@ -7,6 +7,7 @@ function teclado(e){
     if(e.keyCode == 65){
         Audio = document.getElementById('audi1');
         Audio.play();
+
     }
     else if (e.keyCode == 83){
         Audio = document.getElementById('audi2');
@@ -36,14 +37,14 @@ function teclado(e){
         Audio = document.getElementById('audi8');
         Audio.play();
     }
+
 }
 
-
 function click(x){
-    var part = x
-    if(part == 'a'){
-        Audio = document.getElementById('audi1');
-        Audio.play();
+    var int = x
+    if(int == 'a'){
+        Audio1 = document.getElementById('audi1');
+        Audio1.play();
     }
 }
 

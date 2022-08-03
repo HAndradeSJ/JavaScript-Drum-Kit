@@ -10,6 +10,8 @@
 body{
     background-image:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,0.55)),url(/img/drum.jpg);
     background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
 }
 
 /* variaveis */
@@ -64,4 +66,40 @@ button:hover{
     width:7vw;
     color:yellow;
 }
+/* media querry */
+@media (max-width:688px){
 
+    body{
+        background-attachment:fixed;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    
+    }
+    h1{
+        font-size:6.0rem;
+        text-align:center;
+    }
+
+    ul{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        margin-top:16vh;
+
+    }
+    button{
+    margin:21px;
+    border:none;
+    width:13vw;
+    height:8vh;
+    font-weight:bold;
+    font-size:1.5rem;
+    color:black;
+    background-color:white;
+    transition:0.3s all;
+    }
+    /* houver da responsividade */
+    
+
+}
