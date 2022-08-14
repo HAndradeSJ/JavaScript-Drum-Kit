@@ -100,6 +100,11 @@ button:hover{
     transition:0.3s all;
     }
     /* houver da responsividade */
-    
+    button:hover{
+        width:14vw;
+        height:9vh;
+        color:white;
+        background-color:black;
+    }
 
 }
